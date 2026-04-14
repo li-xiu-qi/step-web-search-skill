@@ -1,0 +1,14 @@
+{
+  "name": "step-web-search-skill",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Cross-platform wrapper for StepFun /v1/search API",
+  "scripts": {
+    "search:win": "scripts\\step-web-search.cmd",
+    "search:unix": "bash ./scripts/step-web-search.sh",
+    "search:node": "node ./scripts/step-web-search.mjs",
+    "smoke:dry-run": "bash ./scripts/step-web-search.sh \"hello world\" --dry-run",
+    "smoke:node": "node ./scripts/step-web-search.mjs \"hello world\" --dry-run --format markdown"
+  },
+  "license": "MIT"
+}

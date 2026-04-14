@@ -1,0 +1,27 @@
+{
+  "note": "正式区保留最小可用能力包、.gitignore 和示例配置。真实 config.json 只保留在本机或正式区本地文件，不通过发布清单同步。",
+  "include": [
+    "SKILL.md",
+    "README.md",
+    ".gitignore",
+    "scripts/**",
+    "references/**",
+    "config.example.json",
+    "package.json",
+    "LICENSE"
+  ],
+  "exclude": [
+    ".git/**",
+    ".runtime/**",
+    "drafts/**",
+    "evals/**",
+    "versions/**",
+    "config.json",
+    "config.local.json",
+    ".env",
+    ".env.local",
+    "cookies.json",
+    "token.json",
+    "credentials.json"
+  ]
+}

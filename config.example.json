@@ -1,0 +1,7 @@
+{
+  "api_key": "YOUR_STEPFUN_KEY_HERE",
+  "base_url": "https://api.stepfun.com",
+  "default_n": 10,
+  "default_category": "",
+  "timeout_ms": 30000
+}
